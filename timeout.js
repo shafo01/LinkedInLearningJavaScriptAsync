@@ -6,6 +6,9 @@
  * using arrow syntax
  */
 
-setTimeout(()=>{
-    console.log("Hello Time out finished");
+console.log("One");
+setTimeout(() => {
+    console.log("Two - Asynchronous");
 }, 5000);
+
+console.log("Two");
